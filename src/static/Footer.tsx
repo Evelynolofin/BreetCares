@@ -143,7 +143,7 @@ export default function Footer(){
         </div>
         
         <section
-        className="h-[24px] flex justify-between px-[110px] pt-[40px] pb-[50px] text-[#A5ADC0] bg-[#022745]
+        className="h-[24px] flex justify-between px-[100px] pt-[40px] pb-[50px] text-[#A5ADC0] bg-[#022745]
         max-md:flex-col max-md:px-[10px] max-md:justify-center"
         >
             <div className="text-[14px] max-md:mb-2">
@@ -157,7 +157,7 @@ export default function Footer(){
         </section>
 
         <div 
-            className="bg-[#022745] text-white  py-2 justify-between px-[110px] flex items-center 
+            className="bg-[#022745] text-white  py-2 justify-between px-[100px] flex items-center 
             overflow-x-auto whitespace-nowrap border-t border-[#2FB1CA] gap-30 max-md:gap-0 max-md:scroll-smooth
             max-md:px-10"
             >
