@@ -35,9 +35,9 @@ export default function SectionThree(){
     return (
         <>
         <main
-        className="bg-[#00979E] text-white h-[886px] max-md:py-0 max-md:text-left max-md:h-[1514.62px] flex flex-col justify-center"
+        className="bg-[#00979E] text-white h-[886px] max-md:py-0 max-md:text-left max-md:h-[1514.62px] flex flex-col justify-center max-md:px-[20px]"
         >
-            <div className=" max-md:px-[20px] max-md:pb-10">
+            <div className=" max-md:pb-8">
                 <h1 className="font-medium text-center max-md:text-start text-[40px] max-md:w-[281.55px] max-md:font-semibold
                 max-md:text-[24px]
                 ">Breet Cares - The Giving Arm Of Breet</h1>
