@@ -1,7 +1,7 @@
 import Button from '../Components/reuseable/Button'
 import { IoIosArrowDown } from "react-icons/io";
 
-export default function Sidebar({handleToggle}){
+export default function Sidebar(){
     return (
         <>
         <div className='flex items-center flex-col'>
