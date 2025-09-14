@@ -156,31 +156,32 @@ export default function Footer(){
             </div>
         </section>
 
-        <section className="bg-[#022745] text-white text-sm h-[35px] flex items-center gap-30 px-[110px] py-4 border-t border-[#2FB1CA]
-        max-md:py-5 max-md:gap-20">
-            <div>
-                <span className="font-semibold max-md:font-medium max-md:text-[10px]">Market Price</span>
-            </div>
-            <div className="flex gap-8 overflow-x-auto max-md:gap-2">
+        <div 
+            className="bg-[#022745] text-white  py-2 justify-between px-[110px] flex items-center 
+            overflow-x-auto whitespace-nowrap border-t border-[#2FB1CA] gap-30 max-md:scroll-smooth"
+            >
+            <span className="mr-6 font-medium">Market prices</span>
+
+                <div className="flex gap-6 max-md:gap-2">
                 {Coins.map((Coin) => (
-                    <div
-                    key={Coin.icon}
-                    className="flex items-center gap-3"
+                <div key={Coin.icon} className="flex items-center gap-2 text-sm">
+                    <img src={Coin.icon}
+                    className="max-md:pl-6"
+                    />
+                    <span className="font-semibold">{Coin.name}</span>
+                    <span>= {Coin.symbol}{Coin.price.toLocaleString()}</span>
+                    <span
+                    className={`ml-2 ${
+                        Coin.change >= 0 ? "text-green-500" : "text-red-500"
+                    }`}
                     >
-                        <img src={Coin.icon} />
-                        <span className="font-semibold">{Coin.name}</span>
-                        <span>{Coin.symbol} {Coin.price}</span>
-                        <span
-                            className={`ml-2 ${
-                            Coin.change > 0 ? "text-green-400" : "text-red-400"
-                            }`}
-                        >
-                            {Coin.change > 0 ? `+${Coin.change}` : Coin.change}
-                        </span>
-                    </div>
+                    {Coin.change > 0 ? `+${Coin.change}` : Coin.change}
+            </span>
+                </div>
                 ))}
-            </div>
-        </section>
+        </div>
+    </div>
+        
         </>
     )
 }
