@@ -156,12 +156,12 @@ export default function Footer(){
             </div>
         </section>
 
-        <section className="bg-[#022745] text-white text-sm h-[35px] flex items-center gap-20 px-[110px] py-4 border-t border-[#2FB1CA]
-        max-md:py-5 ">
+        <section className="bg-[#022745] text-white text-sm h-[35px] flex items-center gap-40 px-[110px] py-4 border-t border-[#2FB1CA]
+        max-md:py-5 max-md:gap-20">
             <div>
                 <span className="font-semibold max-md:font-medium max-md:text-[10px]">Market Price</span>
             </div>
-            <div className="flex gap-6 overflow-x-auto max-md:gap-2">
+            <div className="flex gap-8 overflow-x-auto max-md:gap-2">
                 {Coins.map((Coin) => (
                     <div
                     key={Coin.icon}

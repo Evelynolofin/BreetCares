@@ -21,13 +21,13 @@ export default function SectionSix () {
                 </p>
             </div>
 
-            <div className="bg-[#022745]">
-                    <div className="relative">
+            <div className="bg-[#022745] relative">
+                    <div>
                         <img src={GroupImg}/>
                     </div>
-                    <div className="absolute bottom-[-5900px] max-md:bottom-[-4200px] left-0">
+                    <div className="absolute bottom-[-195px] max-md:bottom-[-19px] left-0">
                         <img src={Vector} 
-                        className="w-[1684.655383480244px] h-[350px] max-md:w-[431px] max-md:h-[30px]"/>
+                        className="w-[1684.655383480244px] h-[350px] max-md:w-[431px] max-md:h-[30px] object-cover"/>
                     </div>
             </div>
         </section>

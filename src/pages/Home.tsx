@@ -12,8 +12,9 @@ import SectionFive from '../Components/block/SectionFive';
 import SectionSix from '../Components/block/SectionSix';
 import Footer from '../static/Footer';
 
+
 export default function Home () {
-     const [toggle, setToggle] = useState(false);
+     const [toggle, setToggle] = useState <boolean>(false);
 
      const handleToggle =() => {
     setToggle(!toggle)
