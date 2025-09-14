@@ -158,7 +158,8 @@ export default function Footer(){
 
         <div 
             className="bg-[#022745] text-white  py-2 justify-between px-[110px] flex items-center 
-            overflow-x-auto whitespace-nowrap border-t border-[#2FB1CA] gap-30 max-md:scroll-smooth"
+            overflow-x-auto whitespace-nowrap border-t border-[#2FB1CA] gap-30 max-md:gap-0 max-md:scroll-smooth
+            max-md:px-10"
             >
             <span className="mr-6 font-medium">Market prices</span>
 
