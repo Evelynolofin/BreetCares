@@ -1,5 +1,5 @@
 import Logo from "../assets/div.nav-content-left.png"
-import FB from "../assets/facebook.png"
+import FB from "../assets/Facebook.png"
 import Insta from "../assets/Instagram.png"
 import X from "../assets/X.png"
 import Ln from "../assets/LinkedIn.png"
