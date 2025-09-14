@@ -41,7 +41,7 @@ export default function SectionFive (){
             </div>
         </section>
 
-        <section className="max-md:mt-0 max-md:pt-[10px]">
+        <section className="max-md:mt-0 max-md:pt-[10px] overflow-hidden">
             <div className="flex gap-[15px] max-md:gap-[10px]">
                 <img src={Image1}
                 className="w-[689px] h-[380px] rounded-[13.1px] rounded-l-none max-md:hidden"
