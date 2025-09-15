@@ -52,7 +52,8 @@ export default function Footer(){
     return (
         <>
         <section
-        className="flex justify-evenly text-white bg-[#022745] pt-[250px] pb-[30px] max-md:pt-[100px] max-md:pb-[20px] max-md:flex-col max-md:px-[20px]"
+        className="flex justify-evenly text-white bg-[#022745] pt-[250px] pb-[30px] max-md:pt-[100px] max-md:pb-[20px] max-md:flex-col max-md:px-[20px]
+        max-lg:px-[20px]"
         >
             <div>
                 <img src={Logo} 

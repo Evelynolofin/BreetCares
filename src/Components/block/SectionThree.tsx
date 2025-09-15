@@ -41,11 +41,11 @@ export default function SectionThree(){
                 <h1 className="font-medium text-center max-md:text-start text-[40px] max-md:w-[281.55px] max-md:font-semibold
                 max-md:text-[24px]
                 ">Breet Cares - The Giving Arm Of Breet</h1>
-                <p className="text-[20px] px-[420px] max-md:w-[348px] max-md:px-0 max-md:text-[16px]">At Breet Cares, every crypto transaction becomes a
+                <p className="text-[20px] px-[420px] max-md:w-[348px] text-center max-md:text-start max-md:px-0 max-md:text-[16px] max-lg:px-[200px]">At Breet Cares, every crypto transaction becomes a
                      chance to make a difference. Here's how we give back:</p>
             </div>
 
-            <div className="flex justify-evenly items-center max-md:flex-col">
+            <div className="flex justify-evenly items-center max-md:flex-col max-lg:px-10 max-lg:justify-between">
                 <div className="mt-[45px] max-md:mt-0 ">
                 {projects.slice(0, 2).map((project) =>(
                     <div
@@ -60,18 +60,18 @@ export default function SectionThree(){
                     </div>
                     ))}
                 </div>
-                <div className="flex justify-between items-center gap-[100px] max-md:flex-col-reverse max-md:gap-0">
+                <div className="flex justify-between items-center gap-[100px] max-lg:gap-[20px] max-md:flex-col-reverse max-md:gap-0">
                     <div>
                     <img src={frame4}
                     className="rounded-[30px] w-[466px] h-[529px] mt-[50px] max-md:mt-[20px] max-md:w-[342px] max-md:h-[453.29px]
-                    max-md:rounded-[20px]"
+                    max-md:rounded-[20px] max-lg:w-[200px] max-lg:h-[450px]"
                     />
                 </div>
                 <div className="mt-[45px] max-md:mt-0 ">
                 {projects.slice(2).map((project) =>(
                     <div
                     key= {project.title}
-                    className="w-[288px] h-[190px] mt-[45px] max-md:mt-0  max-md:w-[342px] max-md:h-[172px] max-md:mb-[10px]"
+                    className="w-[288px] h-[190px] mt-[45px] max-md:mt-0 max-md:w-[342px] max-md:h-[172px] max-md:mb-[10px]"
                     >
                         <img src={project.icon}
                          className="pb-[16px] w-[40px] h-[40px]"

@@ -23,7 +23,7 @@ import Image19 from "../../assets/Monsieur BlvckAgenda-4 (2).png"
 export default function SectionFive (){
     return(
         <>
-        <section className="text-center text-[#022745] mb-[50px] max-md:mb-[0px]">
+        <section className="text-center text-[#022745] mb-[50px] max-md:mb-[0px]  max-md:my-0">
             <div className="w-[705px] h-[137px] m-auto max-md:w-[390px] max-md:h-[120px]">
                 <h1
                     className="w-[622px] h-[47px] font-medium text-[40px] mb-[14px]

@@ -21,8 +21,9 @@ export default function Home () {
    };
     return (
         <>
-        <div className='max-md:overflow-hidden'>
-          <div className='flex justify-between px-20 py-5 max-md:px-7 items-center border-[#ECEEEE] border-b-1'>
+        <div className='max-md:overflow-hidden max-lg:overflow-hidden'>
+          <div className='flex justify-between px-20 py-5 max-md:px-7 items-center border-[#ECEEEE] border-b-1
+          max-lg:px-5'>
             <div id="Home">
                 <img src={Logo}/>
             </div>

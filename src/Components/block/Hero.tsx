@@ -22,10 +22,11 @@ export default function Hero (){
         <>
         <div className="text-center text-[#022745]">
             <div className="px-[300px] pt-[80px] font-semibold text-[64px] leading-[72px] max-md:text-[32px] max-md:px-0
-            max-md:leading-[40px] max-md:pt-[50px]">
+            max-md:leading-[40px] max-md:pt-[50px] max-lg:px-0">
             <h1>You trade. <span className="text-[#05A2BF] max-md:text-[#022745]">We give.</span> Someone smiles.</h1>
         </div>
-        <p className="text-[22px] px-[400px] pt-2 max-md:px-10 max-md:leading-[24px] max-md:text-[16px]">Every time you use Breet, a portion of your transaction goes towards helping someone in need.</p>
+        <p className="text-[22px] px-[400px] pt-2 max-md:px-10 max-md:leading-[24px] max-md:text-[16px]
+        max-lg:px-[200px]">Every time you use Breet, a portion of your transaction goes towards helping someone in need.</p>
         </div>
         
 
